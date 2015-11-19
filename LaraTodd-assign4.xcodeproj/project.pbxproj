@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82D374691BEC508F00A4154C /* Lara-assn4-funcs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D3745F1BEC508F00A4154C /* Lara-assn4-funcs.cpp */; };
+		82D3746A1BEC508F00A4154C /* LaraTodd-assn4-funcList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D374641BEC508F00A4154C /* LaraTodd-assn4-funcList.cpp */; };
+		82D3746B1BEC508F00A4154C /* LaraTodd-assn4-main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D374651BEC508F00A4154C /* LaraTodd-assn4-main.cpp */; };
+		82D3746C1BEC508F00A4154C /* Todd-assn4-funcs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D374671BEC508F00A4154C /* Todd-assn4-funcs.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82D374531BEC504C00A4154C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82D374551BEC504C00A4154C /* LaraTodd-assign4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LaraTodd-assign4"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D3745F1BEC508F00A4154C /* Lara-assn4-funcs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Lara-assn4-funcs.cpp"; sourceTree = "<group>"; };
+		82D374601BEC508F00A4154C /* Lara-assn4-funcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Lara-assn4-funcs.h"; sourceTree = "<group>"; };
+		82D374611BEC508F00A4154C /* Lara-assn4-teammateEval.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lara-assn4-teammateEval.docx"; sourceTree = "<group>"; };
+		82D374621BEC508F00A4154C /* LaraTodd-assn4-Analysis.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LaraTodd-assn4-Analysis.docx"; sourceTree = "<group>"; };
+		82D374631BEC508F00A4154C /* LaraTodd-assn4-common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LaraTodd-assn4-common.h"; sourceTree = "<group>"; };
+		82D374641BEC508F00A4154C /* LaraTodd-assn4-funcList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "LaraTodd-assn4-funcList.cpp"; sourceTree = "<group>"; };
+		82D374651BEC508F00A4154C /* LaraTodd-assn4-main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "LaraTodd-assn4-main.cpp"; sourceTree = "<group>"; };
+		82D374661BEC508F00A4154C /* LaraTodd-assn4-RevisedChart.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LaraTodd-assn4-RevisedChart.pdf"; sourceTree = "<group>"; };
+		82D374671BEC508F00A4154C /* Todd-assn4-funcs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Todd-assn4-funcs.cpp"; sourceTree = "<group>"; };
+		82D374681BEC508F00A4154C /* Todd-assn4-funcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Todd-assn4-funcs.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D374521BEC504C00A4154C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82D3744C1BEC504C00A4154C = {
+			isa = PBXGroup;
+			children = (
+				82D374571BEC504C00A4154C /* LaraTodd-assign4 */,
+				82D374561BEC504C00A4154C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D374561BEC504C00A4154C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D374551BEC504C00A4154C /* LaraTodd-assign4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D374571BEC504C00A4154C /* LaraTodd-assign4 */ = {
+			isa = PBXGroup;
+			children = (
+				82D3745F1BEC508F00A4154C /* Lara-assn4-funcs.cpp */,
+				82D374601BEC508F00A4154C /* Lara-assn4-funcs.h */,
+				82D374611BEC508F00A4154C /* Lara-assn4-teammateEval.docx */,
+				82D374621BEC508F00A4154C /* LaraTodd-assn4-Analysis.docx */,
+				82D374631BEC508F00A4154C /* LaraTodd-assn4-common.h */,
+				82D374641BEC508F00A4154C /* LaraTodd-assn4-funcList.cpp */,
+				82D374651BEC508F00A4154C /* LaraTodd-assn4-main.cpp */,
+				82D374661BEC508F00A4154C /* LaraTodd-assn4-RevisedChart.pdf */,
+				82D374671BEC508F00A4154C /* Todd-assn4-funcs.cpp */,
+				82D374681BEC508F00A4154C /* Todd-assn4-funcs.h */,
+			);
+			path = "LaraTodd-assign4";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D374541BEC504C00A4154C /* LaraTodd-assign4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D3745C1BEC504C00A4154C /* Build configuration list for PBXNativeTarget "LaraTodd-assign4" */;
+			buildPhases = (
+				82D374511BEC504C00A4154C /* Sources */,
+				82D374521BEC504C00A4154C /* Frameworks */,
+				82D374531BEC504C00A4154C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LaraTodd-assign4";
+			productName = "LaraTodd-assign4";
+			productReference = 82D374551BEC504C00A4154C /* LaraTodd-assign4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D3744D1BEC504C00A4154C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jose Lara";
+				TargetAttributes = {
+					82D374541BEC504C00A4154C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 82D374501BEC504C00A4154C /* Build configuration list for PBXProject "LaraTodd-assign4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82D3744C1BEC504C00A4154C;
+			productRefGroup = 82D374561BEC504C00A4154C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D374541BEC504C00A4154C /* LaraTodd-assign4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D374511BEC504C00A4154C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D3746C1BEC508F00A4154C /* Todd-assn4-funcs.cpp in Sources */,
+				82D3746A1BEC508F00A4154C /* LaraTodd-assn4-funcList.cpp in Sources */,
+				82D374691BEC508F00A4154C /* Lara-assn4-funcs.cpp in Sources */,
+				82D3746B1BEC508F00A4154C /* LaraTodd-assn4-main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82D3745A1BEC504C00A4154C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82D3745B1BEC504C00A4154C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82D3745D1BEC504C00A4154C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82D3745E1BEC504C00A4154C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D374501BEC504C00A4154C /* Build configuration list for PBXProject "LaraTodd-assign4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D3745A1BEC504C00A4154C /* Debug */,
+				82D3745B1BEC504C00A4154C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D3745C1BEC504C00A4154C /* Build configuration list for PBXNativeTarget "LaraTodd-assign4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D3745D1BEC504C00A4154C /* Debug */,
+				82D3745E1BEC504C00A4154C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D3744D1BEC504C00A4154C /* Project object */;
+}
